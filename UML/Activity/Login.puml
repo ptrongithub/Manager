@@ -1,0 +1,21 @@
+@startuml
+start
+
+':Open App;
+:viewLogin|
+repeat
+	if (Max attempts?) then (yes)
+		end
+	else (no)
+	endif
+	:Enter Username & Password;
+	if (Finish?) then (cancel)
+		end
+	else (ok)
+	endif
+	:Query database for login info/
+repeat while (Invalid Username/Password?) is (yes)
+->no;
+
+stop
+@enduml

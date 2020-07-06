@@ -1,0 +1,5 @@
+C:\Apps\32\JetBrains\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" E:\cpp\dev\Manager
+-- MSVC19
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/cpp/dev/Manager/cmake-build-debug-msvc-2019

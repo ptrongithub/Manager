@@ -1,0 +1,94 @@
+@startuml
+scale 0.5
+class UACcDefault {
+    -- Constructors/Destructors --
+    +UACcDefault()
+    +UACcDefault(const UACmUsers& mUsers, const viewLogin& viewLogin)
+    +virtual ~UACcDefault()
+    -- Setters/Getters --
+    +int GetUserid() const
+    +int GetUserid() const
+    +void SetUserid(int userid)
+    +const wxString& GetUsername() const
+    +void SetUsername(const wxString& username)
+    +const wxString& GetPassword() const
+    +void SetPassword(const wxString& password)
+    +int GetContactid() const
+    +void SetContactid(int contactid)
+	--
+    +bool GetLoggedIn()
+	--
+	-UACmUsers mUsers
+	-viewLogin* viewLogin
+	-int iMaxLogin
+    }
+class UACmUsers {
+	--Constructors/Destructors--
+	+UACmUsers()
+	+UACmUsers(int userid,
+		const wxString& username,
+		const wxString& password,
+		int contactid)
+	+virtual ~UACmUsers()
+	--Setters/Getters--
+	+int GetUserid() const
+	+void SetUserid(int userid)
+	+const wxString& GetUsername() const
+	+void SetUsername(const wxString& username)
+	+const wxString& GetPassword() const
+	+void SetPassword(const wxString& password)
+	+int GetContactid() const
+	+void SetContactid(int contactid)
+	+bool GetUser(int userid)
+	+bool GetUser(const wxString& username)
+	--
+	-int iDuserid
+	' userid int(11) pk
+	-wxString sDusername
+	' username varchar(64) uk idx
+	-wxString sDpassword
+	' password varchar(256)
+	-int iDcontactid
+	' contactid int(11) fk
+}
+class viewLogin {
+	--Constructors/Destructors/Init--
+	+viewLogin()
+	+viewLogin(wxWindow* parent,
+		wxWindowID id = wxID_ANY,
+		const wxString& title = "viewLogin",
+		const wxPoint& pos = wxDefaultPosition,
+		const wxSize& size = wxDefaultSize,
+		long style = wxCAPTION | wxDEFAULT_FRAME_STYLE | wxTAB_TRAVERSAL)
+	+virtual ~viewLogin()
+	+bool Create(wxWindow* parent,
+		wxWindowID id = wxID_ANY,
+		const wxString& title = "viewLogin",
+		const wxPoint& pos = wxDefaultPosition,
+		const wxSize& size = wxDefaultSize,
+		long style = wxCAPTION | wxDEFAULT_FRAME_STYLE | wxTAB_TRAVERSAL)
+	+void Init()
+	+void CreateControls()
+	--Getters/Setters--
+	+const wxString& GetUser() const
+	+const wxString& GetPass() const
+	+void SetUser(const wxString& sUser)
+	+void SetPass(const wxString& sPass)
+	--
+	#wxTextCtrl* tcUser
+	#wxTextCtrl* tcPass
+	#wxButton*   btnOk
+	#wxButton*   btnCancel
+	--
+	-enum {
+		ID_Tc_User = wxID_HIGHEST,
+		ID_Tc_Pass,
+		ID_Btn_Ok,
+		ID_Btn_Cancel}
+	-wxString sUser
+	-wxString sPass
+	}
+UACcDefault *-- UACmUsers
+UACcDefault *-- viewLogin
+
+@enduml

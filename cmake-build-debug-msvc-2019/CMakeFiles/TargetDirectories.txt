@@ -1,0 +1,4 @@
+E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/Manager.dir
+E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/Prefs.dir
+E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/edit_cache.dir
+E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/rebuild_cache.dir

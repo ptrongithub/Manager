@@ -1,0 +1,12 @@
+@startuml
+
+class MyApp{
+	+virtual bool OnInit()
+	+pt::ptree Preferences
+'	bool LoadOptions()
+'	bool SaveOptions()
+'	bool ReadOptions()
+'	std::string Connection
+}
+
+@enduml

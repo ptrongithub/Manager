@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Manager"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Manager">
+				<Option output="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/Manager.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWXUSINGDLL=1"/>
+					<Add option="-DwxMSVC_VERSION_AUTO=1"/>
+					<Add option="-DwxMSVC_VERSION_ABI_COMPAT=1"/>
+					<Add option="-DUNICODE=1"/>
+					<Add option="-D_UNICODE=1"/>
+					<Add directory="E:/cpp/dev/Manager/."/>
+					<Add directory="E:/cpp/dev/Manager"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/include"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/include/msvc"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/lib/vc14x_x64_dll"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/lib/vc14x_x64_dll/mswud"/>
+					<Add directory="E:/cpp/Lib/boost"/>
+					<Add directory="E:/cpp/Lib/boost/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/lib64"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/lib64/debug"/>
+					<Add directory="E:/cpp/Lib/MySQL/c/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/c/include/mysqlx"/>
+					<Add directory="E:/cpp/lib/soci/soci-4.0.0/include"/>
+					<Add directory="E:/cpp/lib/soci/soci-4.0.0/build/include"/>
+					<Add directory="C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7\include\um"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 Manager"/>
+					<CompileFile command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Manager/fast">
+				<Option output="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/Manager.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWXUSINGDLL=1"/>
+					<Add option="-DwxMSVC_VERSION_AUTO=1"/>
+					<Add option="-DwxMSVC_VERSION_ABI_COMPAT=1"/>
+					<Add option="-DUNICODE=1"/>
+					<Add option="-D_UNICODE=1"/>
+					<Add directory="E:/cpp/dev/Manager/."/>
+					<Add directory="E:/cpp/dev/Manager"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/include"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/include/msvc"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/lib/vc14x_x64_dll"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/lib/vc14x_x64_dll/mswud"/>
+					<Add directory="E:/cpp/Lib/boost"/>
+					<Add directory="E:/cpp/Lib/boost/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/lib64"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/lib64/debug"/>
+					<Add directory="E:/cpp/Lib/MySQL/c/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/c/include/mysqlx"/>
+					<Add directory="E:/cpp/lib/soci/soci-4.0.0/include"/>
+					<Add directory="E:/cpp/lib/soci/soci-4.0.0/build/include"/>
+					<Add directory="C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7\include\um"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 Manager/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Prefs">
+				<Option output="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/Prefs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWXUSINGDLL=1"/>
+					<Add option="-DwxMSVC_VERSION_AUTO=1"/>
+					<Add option="-DwxMSVC_VERSION_ABI_COMPAT=1"/>
+					<Add option="-DUNICODE=1"/>
+					<Add option="-D_UNICODE=1"/>
+					<Add directory="E:/cpp/dev/Manager/."/>
+					<Add directory="E:/cpp/dev/Manager"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/include"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/include/msvc"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/lib/vc14x_x64_dll"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/lib/vc14x_x64_dll/mswud"/>
+					<Add directory="E:/cpp/Lib/boost"/>
+					<Add directory="E:/cpp/Lib/boost/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/lib64"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/lib64/debug"/>
+					<Add directory="E:/cpp/Lib/MySQL/c/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/c/include/mysqlx"/>
+					<Add directory="E:/cpp/lib/soci/soci-4.0.0/include"/>
+					<Add directory="E:/cpp/lib/soci/soci-4.0.0/build/include"/>
+					<Add directory="C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7\include\um"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 Prefs"/>
+					<CompileFile command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Prefs/fast">
+				<Option output="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/Prefs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWXUSINGDLL=1"/>
+					<Add option="-DwxMSVC_VERSION_AUTO=1"/>
+					<Add option="-DwxMSVC_VERSION_ABI_COMPAT=1"/>
+					<Add option="-DUNICODE=1"/>
+					<Add option="-D_UNICODE=1"/>
+					<Add directory="E:/cpp/dev/Manager/."/>
+					<Add directory="E:/cpp/dev/Manager"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/include"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/include/msvc"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/lib/vc14x_x64_dll"/>
+					<Add directory="E:/cpp/Lib/wxWidgets/3.1.3/msw/lib/vc14x_x64_dll/mswud"/>
+					<Add directory="E:/cpp/Lib/boost"/>
+					<Add directory="E:/cpp/Lib/boost/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/lib64"/>
+					<Add directory="E:/cpp/Lib/MySQL/msvcd/lib64/debug"/>
+					<Add directory="E:/cpp/Lib/MySQL/c/include"/>
+					<Add directory="E:/cpp/Lib/MySQL/c/include/mysqlx"/>
+					<Add directory="E:/cpp/lib/soci/soci-4.0.0/include"/>
+					<Add directory="E:/cpp/lib/soci/soci-4.0.0/build/include"/>
+					<Add directory="C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7\include\um"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 Prefs/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/cpp/dev/Manager/cmake-build-debug-msvc-2019"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/cpp/dev/Manager/src/Database/helpers/dbU.cpp">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/Database/helpers/dbU.h">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/Tools/views/ManualQuery.cpp">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/Tools/views/ManualQuery.h">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/UAC/controllers/UACcDefault.cpp">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/UAC/controllers/UACcDefault.h">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/UAC/models/UACmUsers.cpp">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/UAC/models/UACmUsers.h">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/UAC/views/UACvLogin.cpp">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/UAC/views/UACvLogin.h">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/_main/main_prefs.cpp">
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/_main/main_prefs.h">
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/includes.h">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/main.cpp">
+			<Option target="Manager"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/main.h">
+			<Option target="Manager"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

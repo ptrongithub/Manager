@@ -1,0 +1,14 @@
+{
+    "database": {
+        "mysql": {
+            "host": "localhost",
+            "port": "3306",
+            "user": "dev_manager",
+            "pass": "dev_manager",
+            "data": "dev_manager"
+        }
+    },
+    "uac": {
+        "maxlogin": "3"
+    }
+}

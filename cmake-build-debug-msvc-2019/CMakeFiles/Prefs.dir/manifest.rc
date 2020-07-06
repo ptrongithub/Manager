@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/Prefs.dir/embed.manifest"
