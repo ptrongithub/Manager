@@ -112,7 +112,7 @@ link_directories(
 	${SOCI}/build/lib/Debug
 )
 
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /P")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /P")
 add_executable(${PROJECT_NAME} ${SRC_MAIN} ${SRC_FILES})
 set_target_properties(${PROJECT_NAME} PROPERTIES
 	LINK_FLAGS /SUBSYSTEM:WINDOWS

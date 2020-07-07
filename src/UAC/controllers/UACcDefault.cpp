@@ -13,10 +13,10 @@ UACcDefault::UACcDefault() {
 	iMaxLogin = atoi(APP.Preferences.get("uac.maxlogin", "").data());
 }
 
-UACcDefault::UACcDefault(int iMaxLogin, UACmUsers* mUsers, UACvLogin* viewLogin)
-		: iMaxLogin(iMaxLogin), mUsers(mUsers), viewLogin(viewLogin) {
-	;
-}
+//UACcDefault::UACcDefault(int iMaxLogin, UACmUsers* mUsers, UACvLogin* viewLogin)
+//		: iMaxLogin(iMaxLogin), mUsers(mUsers), viewLogin(viewLogin) {
+//	;
+//}
 
 UACcDefault::~UACcDefault() {
 	delete mUsers;
