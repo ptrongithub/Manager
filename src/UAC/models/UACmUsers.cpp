@@ -91,4 +91,3 @@ soci::indicator UACmUsers::GetIndUsername() const {
 soci::indicator UACmUsers::GetIndPassword() const {
 	return indPassword;
 }
-

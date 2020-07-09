@@ -167,35 +167,35 @@ src\Database\helpers\dbU.cpp.s:
 	$(MAKE) -f CMakeFiles\Prefs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prefs.dir\src\Database\helpers\dbU.cpp.s
 .PHONY : src\Database\helpers\dbU.cpp.s
 
-src\Tools\views\ManualQuery.obj: src\Tools\views\ManualQuery.cpp.obj
+src\Preferences\models\mPrefs.obj: src\Preferences\models\mPrefs.cpp.obj
 
-.PHONY : src\Tools\views\ManualQuery.obj
+.PHONY : src\Preferences\models\mPrefs.obj
 
 # target to build an object file
-src\Tools\views\ManualQuery.cpp.obj:
-	$(MAKE) -f CMakeFiles\Manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.obj
-	$(MAKE) -f CMakeFiles\Prefs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prefs.dir\src\Tools\views\ManualQuery.cpp.obj
-.PHONY : src\Tools\views\ManualQuery.cpp.obj
+src\Preferences\models\mPrefs.cpp.obj:
+	$(MAKE) -f CMakeFiles\Manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.obj
+	$(MAKE) -f CMakeFiles\Prefs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prefs.dir\src\Preferences\models\mPrefs.cpp.obj
+.PHONY : src\Preferences\models\mPrefs.cpp.obj
 
-src\Tools\views\ManualQuery.i: src\Tools\views\ManualQuery.cpp.i
+src\Preferences\models\mPrefs.i: src\Preferences\models\mPrefs.cpp.i
 
-.PHONY : src\Tools\views\ManualQuery.i
+.PHONY : src\Preferences\models\mPrefs.i
 
 # target to preprocess a source file
-src\Tools\views\ManualQuery.cpp.i:
-	$(MAKE) -f CMakeFiles\Manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.i
-	$(MAKE) -f CMakeFiles\Prefs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prefs.dir\src\Tools\views\ManualQuery.cpp.i
-.PHONY : src\Tools\views\ManualQuery.cpp.i
+src\Preferences\models\mPrefs.cpp.i:
+	$(MAKE) -f CMakeFiles\Manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.i
+	$(MAKE) -f CMakeFiles\Prefs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prefs.dir\src\Preferences\models\mPrefs.cpp.i
+.PHONY : src\Preferences\models\mPrefs.cpp.i
 
-src\Tools\views\ManualQuery.s: src\Tools\views\ManualQuery.cpp.s
+src\Preferences\models\mPrefs.s: src\Preferences\models\mPrefs.cpp.s
 
-.PHONY : src\Tools\views\ManualQuery.s
+.PHONY : src\Preferences\models\mPrefs.s
 
 # target to generate assembly for a file
-src\Tools\views\ManualQuery.cpp.s:
-	$(MAKE) -f CMakeFiles\Manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.s
-	$(MAKE) -f CMakeFiles\Prefs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prefs.dir\src\Tools\views\ManualQuery.cpp.s
-.PHONY : src\Tools\views\ManualQuery.cpp.s
+src\Preferences\models\mPrefs.cpp.s:
+	$(MAKE) -f CMakeFiles\Manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.s
+	$(MAKE) -f CMakeFiles\Prefs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prefs.dir\src\Preferences\models\mPrefs.cpp.s
+.PHONY : src\Preferences\models\mPrefs.cpp.s
 
 src\UAC\controllers\UACcDefault.obj: src\UAC\controllers\UACcDefault.cpp.obj
 
@@ -354,9 +354,9 @@ help:
 	@echo ... src/Database/helpers/dbU.obj
 	@echo ... src/Database/helpers/dbU.i
 	@echo ... src/Database/helpers/dbU.s
-	@echo ... src/Tools/views/ManualQuery.obj
-	@echo ... src/Tools/views/ManualQuery.i
-	@echo ... src/Tools/views/ManualQuery.s
+	@echo ... src/Preferences/models/mPrefs.obj
+	@echo ... src/Preferences/models/mPrefs.i
+	@echo ... src/Preferences/models/mPrefs.s
 	@echo ... src/UAC/controllers/UACcDefault.obj
 	@echo ... src/UAC/controllers/UACcDefault.i
 	@echo ... src/UAC/controllers/UACcDefault.s

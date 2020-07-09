@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Prefs.dir/src/Database/helpers/dbU.cpp.obj"
-  "CMakeFiles/Prefs.dir/src/Tools/views/ManualQuery.cpp.obj"
+  "CMakeFiles/Prefs.dir/src/Preferences/models/mPrefs.cpp.obj"
   "CMakeFiles/Prefs.dir/src/UAC/controllers/UACcDefault.cpp.obj"
   "CMakeFiles/Prefs.dir/src/UAC/models/UACmUsers.cpp.obj"
   "CMakeFiles/Prefs.dir/src/UAC/views/UACvLogin.cpp.obj"

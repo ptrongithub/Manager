@@ -8,6 +8,7 @@
 
 // includes main application object and global library includes
 #include "src/includes.h"
+#include "src/views.inc.h"
 
 class UACvLogin : public wxDialog {
 public:

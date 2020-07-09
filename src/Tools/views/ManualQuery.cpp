@@ -6,8 +6,8 @@
 #include "ManualQuery.h"
 
 wxBEGIN_EVENT_TABLE(ManualQuery, wxFrame)
-				EVT_BUTTON(ManualQuery::ID_Btn_Execute, ManualQuery::OnExecute)
-				EVT_BUTTON(ManualQuery::ID_Btn_Close, ManualQuery::OnClose)
+				EVT_BUTTON(  ManualQuery::ID_Btn_Execute, ManualQuery::OnExecute)
+				EVT_BUTTON(  ManualQuery::ID_Btn_Close,   ManualQuery::OnClose)
 				EVT_CHECKBOX(ManualQuery::ID_Cb_WordWrap, ManualQuery::OnWordWrap)
 wxEND_EVENT_TABLE()
 
@@ -55,8 +55,8 @@ bool ManualQuery::Create(wxWindow* parent, wxWindowID id, const wxString& title,
 	cbWordWrap->Disable();
 
 	auto* bsButtons = new wxBoxSizer(wxVERTICAL);
-	auto* bsQuery =   new wxBoxSizer(wxHORIZONTAL);
-	auto* bsRoot =    new wxBoxSizer(wxVERTICAL);
+	auto* bsQuery   = new wxBoxSizer(wxHORIZONTAL);
+	auto* bsRoot    = new wxBoxSizer(wxVERTICAL);
 
 	bsButtons->Add(btnExecute, 0, wxALL, 5);
 	bsButtons->Add(btnClose,   0, wxALL, 5);

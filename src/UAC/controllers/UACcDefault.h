@@ -7,6 +7,7 @@
 #define MANAGER_UACCDEFAULT_H
 
 #include "src/includes.h"
+#include "src/db.inc.h"
 #include "../views/UACvLogin.h"
 #include "../models/UACmUsers.h"
 
@@ -16,7 +17,7 @@
 class UACcDefault {
 public:
 	UACcDefault();
-	UACcDefault(int iMaxLogin, UACmUsers* mUsers = nullptr, UACvLogin* viewLogin = nullptr);
+//	UACcDefault(int iMaxLogin, UACmUsers* mUsers = nullptr, UACvLogin* viewLogin = nullptr);
 	virtual ~UACcDefault();
 
 	int GetUserid() const;

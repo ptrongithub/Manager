@@ -96,42 +96,42 @@ CMakeFiles\Manager.dir\src\Database\helpers\dbU.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Manager.dir\src\Database\helpers\dbU.cpp.s /c E:\cpp\dev\Manager\src\Database\helpers\dbU.cpp
 <<
 
-CMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.obj: CMakeFiles\Manager.dir\flags.make
-CMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.obj: ..\src\Tools\views\ManualQuery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Manager.dir/src/Tools/views/ManualQuery.cpp.obj"
+CMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.obj: CMakeFiles\Manager.dir\flags.make
+CMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.obj: ..\src\Preferences\models\mPrefs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Manager.dir/src/Preferences/models/mPrefs.cpp.obj"
 	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.obj /FdCMakeFiles\Manager.dir\ /FS -c E:\cpp\dev\Manager\src\Tools\views\ManualQuery.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.obj /FdCMakeFiles\Manager.dir\ /FS -c E:\cpp\dev\Manager\src\Preferences\models\mPrefs.cpp
 <<
 
-CMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Manager.dir/src/Tools/views/ManualQuery.cpp.i"
-	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" > CMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\cpp\dev\Manager\src\Tools\views\ManualQuery.cpp
+CMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Manager.dir/src/Preferences/models/mPrefs.cpp.i"
+	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" > CMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\cpp\dev\Manager\src\Preferences\models\mPrefs.cpp
 <<
 
-CMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Manager.dir/src/Tools/views/ManualQuery.cpp.s"
+CMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Manager.dir/src/Preferences/models/mPrefs.cpp.s"
 	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.s /c E:\cpp\dev\Manager\src\Tools\views\ManualQuery.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.s /c E:\cpp\dev\Manager\src\Preferences\models\mPrefs.cpp
 <<
 
-CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.obj: CMakeFiles\Manager.dir\flags.make
-CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.obj: ..\src\UAC\views\UACvLogin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Manager.dir/src/UAC/views/UACvLogin.cpp.obj"
+CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.obj: CMakeFiles\Manager.dir\flags.make
+CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.obj: ..\src\UAC\controllers\UACcDefault.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Manager.dir/src/UAC/controllers/UACcDefault.cpp.obj"
 	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.obj /FdCMakeFiles\Manager.dir\ /FS -c E:\cpp\dev\Manager\src\UAC\views\UACvLogin.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.obj /FdCMakeFiles\Manager.dir\ /FS -c E:\cpp\dev\Manager\src\UAC\controllers\UACcDefault.cpp
 <<
 
-CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Manager.dir/src/UAC/views/UACvLogin.cpp.i"
-	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" > CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\cpp\dev\Manager\src\UAC\views\UACvLogin.cpp
+CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Manager.dir/src/UAC/controllers/UACcDefault.cpp.i"
+	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" > CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\cpp\dev\Manager\src\UAC\controllers\UACcDefault.cpp
 <<
 
-CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Manager.dir/src/UAC/views/UACvLogin.cpp.s"
+CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Manager.dir/src/UAC/controllers/UACcDefault.cpp.s"
 	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.s /c E:\cpp\dev\Manager\src\UAC\views\UACvLogin.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.s /c E:\cpp\dev\Manager\src\UAC\controllers\UACcDefault.cpp
 <<
 
 CMakeFiles\Manager.dir\src\UAC\models\UACmUsers.cpp.obj: CMakeFiles\Manager.dir\flags.make
@@ -153,43 +153,43 @@ CMakeFiles\Manager.dir\src\UAC\models\UACmUsers.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Manager.dir\src\UAC\models\UACmUsers.cpp.s /c E:\cpp\dev\Manager\src\UAC\models\UACmUsers.cpp
 <<
 
-CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.obj: CMakeFiles\Manager.dir\flags.make
-CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.obj: ..\src\UAC\controllers\UACcDefault.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Manager.dir/src/UAC/controllers/UACcDefault.cpp.obj"
+CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.obj: CMakeFiles\Manager.dir\flags.make
+CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.obj: ..\src\UAC\views\UACvLogin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\cpp\dev\Manager\cmake-build-debug-msvc-2019\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Manager.dir/src/UAC/views/UACvLogin.cpp.obj"
 	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.obj /FdCMakeFiles\Manager.dir\ /FS -c E:\cpp\dev\Manager\src\UAC\controllers\UACcDefault.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.obj /FdCMakeFiles\Manager.dir\ /FS -c E:\cpp\dev\Manager\src\UAC\views\UACvLogin.cpp
 <<
 
-CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Manager.dir/src/UAC/controllers/UACcDefault.cpp.i"
-	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" > CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\cpp\dev\Manager\src\UAC\controllers\UACcDefault.cpp
+CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Manager.dir/src/UAC/views/UACvLogin.cpp.i"
+	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" > CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\cpp\dev\Manager\src\UAC\views\UACvLogin.cpp
 <<
 
-CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Manager.dir/src/UAC/controllers/UACcDefault.cpp.s"
+CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Manager.dir/src/UAC/views/UACvLogin.cpp.s"
 	"C:\Apps\32\Microsoft\Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\Hostx86\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.s /c E:\cpp\dev\Manager\src\UAC\controllers\UACcDefault.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.s /c E:\cpp\dev\Manager\src\UAC\views\UACvLogin.cpp
 <<
 
 # Object files for target Manager
 Manager_OBJECTS = \
 "CMakeFiles\Manager.dir\src\main.cpp.obj" \
 "CMakeFiles\Manager.dir\src\Database\helpers\dbU.cpp.obj" \
-"CMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.obj" \
-"CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.obj" \
+"CMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.obj" \
+"CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.obj" \
 "CMakeFiles\Manager.dir\src\UAC\models\UACmUsers.cpp.obj" \
-"CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.obj"
+"CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.obj"
 
 # External object files for target Manager
 Manager_EXTERNAL_OBJECTS =
 
 Manager.exe: CMakeFiles\Manager.dir\src\main.cpp.obj
 Manager.exe: CMakeFiles\Manager.dir\src\Database\helpers\dbU.cpp.obj
-Manager.exe: CMakeFiles\Manager.dir\src\Tools\views\ManualQuery.cpp.obj
-Manager.exe: CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.obj
-Manager.exe: CMakeFiles\Manager.dir\src\UAC\models\UACmUsers.cpp.obj
+Manager.exe: CMakeFiles\Manager.dir\src\Preferences\models\mPrefs.cpp.obj
 Manager.exe: CMakeFiles\Manager.dir\src\UAC\controllers\UACcDefault.cpp.obj
+Manager.exe: CMakeFiles\Manager.dir\src\UAC\models\UACmUsers.cpp.obj
+Manager.exe: CMakeFiles\Manager.dir\src\UAC\views\UACvLogin.cpp.obj
 Manager.exe: CMakeFiles\Manager.dir\build.make
 Manager.exe: E:\cpp\lib\soci\soci-4.0.0\build\lib\Debug\libsoci_core_4_0.lib
 Manager.exe: E:\cpp\lib\soci\soci-4.0.0\build\lib\Debug\libsoci_mysql_4_0.lib

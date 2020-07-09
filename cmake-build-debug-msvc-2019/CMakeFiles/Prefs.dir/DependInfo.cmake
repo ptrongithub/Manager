@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/cpp/dev/Manager/src/Database/helpers/dbU.cpp" "E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/Prefs.dir/src/Database/helpers/dbU.cpp.obj"
-  "E:/cpp/dev/Manager/src/Tools/views/ManualQuery.cpp" "E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/Prefs.dir/src/Tools/views/ManualQuery.cpp.obj"
+  "E:/cpp/dev/Manager/src/Preferences/models/mPrefs.cpp" "E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/Prefs.dir/src/Preferences/models/mPrefs.cpp.obj"
   "E:/cpp/dev/Manager/src/UAC/controllers/UACcDefault.cpp" "E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/Prefs.dir/src/UAC/controllers/UACcDefault.cpp.obj"
   "E:/cpp/dev/Manager/src/UAC/models/UACmUsers.cpp" "E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/Prefs.dir/src/UAC/models/UACmUsers.cpp.obj"
   "E:/cpp/dev/Manager/src/UAC/views/UACvLogin.cpp" "E:/cpp/dev/Manager/cmake-build-debug-msvc-2019/CMakeFiles/Prefs.dir/src/UAC/views/UACvLogin.cpp.obj"

@@ -7,9 +7,8 @@
 #define MANAGER_UACMUSERS_H
 
 #include "src/includes.h"
-// Database #includes
-#include <soci/soci.h>
-#include <soci/mysql/soci-mysql.h>
+#include "src/views.inc.h"
+#include "src/db.inc.h"
 
 class UACmUsers {
 public:

@@ -10,7 +10,7 @@ UACcDefault::UACcDefault() {
 	mUsers = new UACmUsers;
 //	viewLogin.Create(nullptr);
 
-	iMaxLogin = atoi(APP.Preferences.get("uac.maxlogin", "").data());
+	iMaxLogin = stoi(mPrefs::GetPref("uac.maxlogin"));
 }
 
 //UACcDefault::UACcDefault(int iMaxLogin, UACmUsers* mUsers, UACvLogin* viewLogin)

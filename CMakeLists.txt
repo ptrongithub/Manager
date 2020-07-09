@@ -7,35 +7,32 @@ set(PREFS Prefs)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SRC_MAIN
-	src/main.h
-	src/main.cpp
+	src/main.h src/main.cpp
 	)
 set(SRC_PREFS
-	src/_main/main_prefs.h
-	src/_main/main_prefs.cpp
+	src/_main/main_prefs.h src/_main/main_prefs.cpp
 	)
 
 set(SRC_FILES
 #	main.h main.cpp
+	src/db.inc.h
 	src/includes.h
-#	src/Application/views/manager.h
-#	src/Application/views/manager.cpp
-	src/Database/helpers/dbU.h
-	src/Database/helpers/dbU.cpp
-#	src/Preferences/Database/views/ConfigDatabaseConn.h
-#	src/Preferences/Database/views/ConfigDatabaseConn.cpp
-#	src/Preferences/helpers/PrefsData.h
-#	src/Preferences/helpers/PrefsData.cpp
-#	src/Preferences/views/Preferences.h
-#	src/Preferences/views/Preferences.cpp
-	src/Tools/views/ManualQuery.h
-	src/Tools/views/ManualQuery.cpp
-	src/UAC/views/UACvLogin.h
-	src/UAC/views/UACvLogin.cpp
-	src/UAC/models/UACmUsers.h
-	src/UAC/models/UACmUsers.cpp
-	src/UAC/controllers/UACcDefault.h
-	src/UAC/controllers/UACcDefault.cpp
+	src/ptree.inc.h
+	src/views.inc.h
+	src/Database/helpers/dbU.h src/Database/helpers/dbU.cpp
+	src/Preferences/models/mPrefs.h src/Preferences/models/mPrefs.cpp
+#	src/Tools/views/ManualQuery.h src/Tools/views/ManualQuery.cpp
+	src/UAC/controllers/UACcDefault.h src/UAC/controllers/UACcDefault.cpp
+	src/UAC/models/UACmUsers.h src/UAC/models/UACmUsers.cpp
+	src/UAC/views/UACvLogin.h src/UAC/views/UACvLogin.cpp
+
+
+#	src/Application/views/manager.h src/Application/views/manager.cpp # Main Window
+#	src/Preferences/Database/views/ConfigDatabaseConn.h src/Preferences/Database/views/ConfigDatabaseConn.cpp
+#	src/Preferences/helpers/PrefsData.h src/Preferences/helpers/PrefsData.cpp
+#	src/Preferences/views/Preferences.h src/Preferences/views/Preferences.cpp
+
+
 	)
 
 # External Library Root Locations
@@ -112,7 +109,7 @@ link_directories(
 	${SOCI}/build/lib/Debug
 )
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /P")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /P")
 add_executable(${PROJECT_NAME} ${SRC_MAIN} ${SRC_FILES})
 set_target_properties(${PROJECT_NAME} PROPERTIES
 	LINK_FLAGS /SUBSYSTEM:WINDOWS

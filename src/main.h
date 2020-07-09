@@ -6,27 +6,16 @@
 #ifndef MANAGER_MAIN_H
 #define MANAGER_MAIN_H
 
-// Source #includes
 #include "includes.h"
-//#include "Database/helpers/dbU.h"
+#include "views.inc.h"
+#include "ptree.inc.h"
+
 #include "src/UAC/controllers/UACcDefault.h"
-#include "Tools/views/ManualQuery.h"
-//#include "UAC/models/mUACUsers.h"
-
-#define APP wxGetApp()
-//#define APP ((MyApp*)wxTheApp)
-
-namespace pt = boost::property_tree;
-//using namespace json;
+//#include "Tools/views/ManualQuery.h"
 
 class MyApp : public wxApp {
 public:
 	virtual bool OnInit();
-	pt::ptree Preferences;
-	bool LoadOptions();
-	bool SaveOptions();
-	bool ReadOptions();
-	std::string Connection;
 
 };
 

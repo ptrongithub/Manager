@@ -12,7 +12,6 @@ wxEND_EVENT_TABLE()
 UACvLogin::UACvLogin() {
 	Init();
 	Create(this);
-
 }
 
 UACvLogin::UACvLogin(wxWindow *parent, wxWindowID id, const wxString &title, const wxPoint &pos,

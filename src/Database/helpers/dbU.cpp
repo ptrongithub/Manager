@@ -7,10 +7,10 @@
 
 std::string dbU::Connection() {
 	std::string connection = "mysql://";
-	(connection +=  "host="  ) += APP.Preferences.get("database.mysql.host", "").data();
-	(connection += " port="  ) += APP.Preferences.get("database.mysql.port", "").data();
-	(connection += " user="  ) += APP.Preferences.get("database.mysql.user", "").data();
-	(connection += " pass="  ) += APP.Preferences.get("database.mysql.pass", "").data();
-	(connection += " dbname=") += APP.Preferences.get("database.mysql.data", "").data();
+	(connection +=  "host="  ) += mPrefs::GetPref("database.mysql.host");
+	(connection += " port="  ) += mPrefs::GetPref("database.mysql.port");
+	(connection += " user="  ) += mPrefs::GetPref("database.mysql.user");
+	(connection += " pass="  ) += mPrefs::GetPref("database.mysql.pass");
+	(connection += " dbname=") += mPrefs::GetPref("database.mysql.data");
 	return connection;
 }

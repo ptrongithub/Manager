@@ -8,6 +8,7 @@
 
 // includes main application object and global library includes
 #include "src/includes.h"
+#include "src/db.inc.h"
 
 class ManualQuery : public wxFrame {
 public:

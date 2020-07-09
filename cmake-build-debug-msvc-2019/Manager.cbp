@@ -226,11 +226,11 @@
 			<Option target="Manager"/>
 			<Option target="Prefs"/>
 		</Unit>
-		<Unit filename="E:/cpp/dev/Manager/src/Tools/views/ManualQuery.cpp">
+		<Unit filename="E:/cpp/dev/Manager/src/Preferences/models/mPrefs.cpp">
 			<Option target="Manager"/>
 			<Option target="Prefs"/>
 		</Unit>
-		<Unit filename="E:/cpp/dev/Manager/src/Tools/views/ManualQuery.h">
+		<Unit filename="E:/cpp/dev/Manager/src/Preferences/models/mPrefs.h">
 			<Option target="Manager"/>
 			<Option target="Prefs"/>
 		</Unit>
@@ -264,6 +264,10 @@
 		<Unit filename="E:/cpp/dev/Manager/src/_main/main_prefs.h">
 			<Option target="Prefs"/>
 		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/db.inc.h">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
 		<Unit filename="E:/cpp/dev/Manager/src/includes.h">
 			<Option target="Manager"/>
 			<Option target="Prefs"/>
@@ -273,6 +277,14 @@
 		</Unit>
 		<Unit filename="E:/cpp/dev/Manager/src/main.h">
 			<Option target="Manager"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/ptree.inc.h">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
+		</Unit>
+		<Unit filename="E:/cpp/dev/Manager/src/views.inc.h">
+			<Option target="Manager"/>
+			<Option target="Prefs"/>
 		</Unit>
 		<Unit filename="E:/cpp/dev/Manager/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
