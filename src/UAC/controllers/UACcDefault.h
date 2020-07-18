@@ -11,9 +11,6 @@
 #include "../views/UACvLogin.h"
 #include "../models/UACmUsers.h"
 
-//class UACvLogin;
-//class UACmUsers;
-
 class UACcDefault {
 public:
 	UACcDefault();
@@ -22,10 +19,12 @@ public:
 
 	int GetUserid() const;
 	void SetUserid(int userid);
-	const wxString& GetUsername() const;
+	wxString GetUsername() const;
 	void SetUsername(const wxString& username);
-	const wxString& GetPassword() const;
+	void SetUsername(const std::string& username);
+	wxString GetPassword() const;
 	void SetPassword(const wxString& password);
+	void SetPassword(const std::string& password);
 	int GetContactid() const;
 	void SetContactid(int contactid);
 

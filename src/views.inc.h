@@ -12,6 +12,7 @@
 #include <wx/wx.h>
 #endif
 #include <wx/app.h>
+#include <wx/artprov.h>
 #include <wx/textctrl.h>
 #include <wx/valgen.h>
 

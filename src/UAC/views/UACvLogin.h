@@ -27,18 +27,22 @@ public:
 	            const wxSize& size = wxDefaultSize,
 	            long style = wxCAPTION | wxDEFAULT_FRAME_STYLE | wxTAB_TRAVERSAL);
 	void Init();
+	void Init(const wxString& sMsg);
 	void CreateControls();
 
 	const wxString& GetUser() const;
 	const wxString& GetPass() const;
 	void SetUser(const wxString& sUser);
 	void SetPass(const wxString& sPass);
+	void SetMessage(const wxString& sMsg);
 
 protected:
-	wxTextCtrl* tcUser;
-	wxTextCtrl* tcPass;
-	wxButton*   btnOk;
-	wxButton*   btnCancel;
+	wxTextCtrl*     tcUser;
+	wxTextCtrl*     tcPass;
+	wxButton*       btnOk;
+	wxButton*       btnCancel;
+	wxStaticBitmap* sbIcon    ;
+	wxStaticText*   stMessage ;
 
 private:
 	enum {
@@ -47,8 +51,9 @@ private:
 		ID_Btn_Ok,
 		ID_Btn_Cancel
 	};
-	wxString sUser;
-	wxString sPass;
+	wxString sUsername;
+	wxString sPassword;
+	wxString sMessage;
 
 DECLARE_EVENT_TABLE()
 };

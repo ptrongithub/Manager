@@ -72,8 +72,8 @@ class viewLogin {
 	--Getters/Setters--
 	+const wxString& GetUser() const
 	+const wxString& GetPass() const
-	+void SetUser(const wxString& sUser)
-	+void SetPass(const wxString& sPass)
+	+void SetUser(const wxString& sUsername)
+	+void SetPass(const wxString& sPassword)
 	--
 	#wxTextCtrl* tcUser
 	#wxTextCtrl* tcPass
@@ -85,8 +85,8 @@ class viewLogin {
 		ID_Tc_Pass,
 		ID_Btn_Ok,
 		ID_Btn_Cancel}
-	-wxString sUser
-	-wxString sPass
+	-wxString sUsername
+	-wxString sPassword
 	}
 UACcDefault *-- UACmUsers
 UACcDefault *-- viewLogin
